@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D4C64FB23D5927600C7DDD8 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C64FA23D5927600C7DDD8 /* StringExtension.swift */; };
+		9D4C64FD23D592AA00C7DDD8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9D4C64FC23D592AA00C7DDD8 /* Localizable.strings */; };
+		9D4C650123D5946900C7DDD8 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C650023D5946900C7DDD8 /* Endpoint.swift */; };
+		9D4C650323D594D900C7DDD8 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C650223D594D900C7DDD8 /* Reachability.swift */; };
+		9D4C650523D59BF900C7DDD8 /* SetExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C650423D59BF900C7DDD8 /* SetExtension.swift */; };
+		9D4C650723D59C4600C7DDD8 /* TextFieldExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C650623D59C4600C7DDD8 /* TextFieldExt.swift */; };
+		9D4C650F23D59D3700C7DDD8 /* GraphProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C650923D59D3700C7DDD8 /* GraphProtocol.swift */; };
+		9D4C651023D59D3700C7DDD8 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C650A23D59D3700C7DDD8 /* Graph.swift */; };
+		9D4C651123D59D3700C7DDD8 /* GraphEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C650C23D59D3700C7DDD8 /* GraphEdge.swift */; };
+		9D4C651223D59D3700C7DDD8 /* GraphPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C650D23D59D3700C7DDD8 /* GraphPath.swift */; };
+		9D4C651323D59D3700C7DDD8 /* GraphNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C650E23D59D3700C7DDD8 /* GraphNode.swift */; };
+		9D4C651823D59D6A00C7DDD8 /* CoordinatesExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C651523D59D6A00C7DDD8 /* CoordinatesExtension.swift */; };
+		9D4C651923D59D6A00C7DDD8 /* Connections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C651623D59D6A00C7DDD8 /* Connections.swift */; };
+		9D4C651A23D59D6A00C7DDD8 /* ConnectionsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C651723D59D6A00C7DDD8 /* ConnectionsExtension.swift */; };
+		9D4C651D23D59D9900C7DDD8 /* MappableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C651C23D59D9900C7DDD8 /* MappableProtocol.swift */; };
+		9D4C651F23D59DBA00C7DDD8 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4C651E23D59DBA00C7DDD8 /* DataLoader.swift */; };
+		9D67E49023D5A08C0099AA1A /* FormParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D67E48F23D5A08C0099AA1A /* FormParams.swift */; };
+		9D67E49223D5A5600099AA1A /* MapViewControllerMKMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D67E49123D5A5600099AA1A /* MapViewControllerMKMap.swift */; };
+		9D67E49423D5A5640099AA1A /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D67E49323D5A5640099AA1A /* MapViewModel.swift */; };
+		9D67E49623D5A56E0099AA1A /* MapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D67E49523D5A56E0099AA1A /* MapAnnotation.swift */; };
+		9D67E49823D5A5E90099AA1A /* MapParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D67E49723D5A5E90099AA1A /* MapParams.swift */; };
+		9D9D7A0423D570C50023FC6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D7A0323D570C50023FC6C /* AppDelegate.swift */; };
+		9D9D7A0D23D570C60023FC6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D9D7A0C23D570C60023FC6C /* Assets.xcassets */; };
+		9D9D7A1023D570C60023FC6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D9D7A0E23D570C60023FC6C /* LaunchScreen.storyboard */; };
+		9D9D7A1B23D570C60023FC6C /* TUI_Mobility_Hub_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D7A1A23D570C60023FC6C /* TUI_Mobility_Hub_TestTests.swift */; };
+		9D9D7A2623D570C60023FC6C /* TUI_Mobility_Hub_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D7A2523D570C60023FC6C /* TUI_Mobility_Hub_TestUITests.swift */; };
+		9D9D7A3D23D573450023FC6C /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D7A3C23D573450023FC6C /* FormViewController.swift */; };
+		9D9D7A3F23D5739E0023FC6C /* FormViewController+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D7A3E23D5739E0023FC6C /* FormViewController+Layout.swift */; };
+		9D9D7A4423D5744B0023FC6C /* ImageViewsExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D7A4123D5744B0023FC6C /* ImageViewsExt.swift */; };
+		9D9D7A4523D5744B0023FC6C /* ViewsExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D7A4223D5744B0023FC6C /* ViewsExt.swift */; };
+		9D9D7A4623D5744B0023FC6C /* UIView+AnchorsExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D7A4323D5744B0023FC6C /* UIView+AnchorsExt.swift */; };
+		9D9D7A4823D578670023FC6C /* ButtonsExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D7A4723D578670023FC6C /* ButtonsExt.swift */; };
+		9D9D7A4A23D588D40023FC6C /* FormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D7A4923D588D40023FC6C /* FormViewModel.swift */; };
+		9D9D7A4E23D58CF40023FC6C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D7A4D23D58CF40023FC6C /* MapViewController.swift */; };
+		9D9D7A5123D590530023FC6C /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D7A5023D590530023FC6C /* Errors.swift */; };
+		9D9D7A5323D590D30023FC6C /* ViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D7A5223D590D30023FC6C /* ViewControllerExt.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D9D7A1723D570C60023FC6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D9D79F823D570C50023FC6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D9D79FF23D570C50023FC6C;
+			remoteInfo = TUI_Mobility_Hub_Test;
+		};
+		9D9D7A2223D570C60023FC6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D9D79F823D570C50023FC6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D9D79FF23D570C50023FC6C;
+			remoteInfo = TUI_Mobility_Hub_Test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D4C64FA23D5927600C7DDD8 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		9D4C64FC23D592AA00C7DDD8 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		9D4C650023D5946900C7DDD8 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		9D4C650223D594D900C7DDD8 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		9D4C650423D59BF900C7DDD8 /* SetExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetExtension.swift; sourceTree = "<group>"; };
+		9D4C650623D59C4600C7DDD8 /* TextFieldExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExt.swift; sourceTree = "<group>"; };
+		9D4C650923D59D3700C7DDD8 /* GraphProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphProtocol.swift; sourceTree = "<group>"; };
+		9D4C650A23D59D3700C7DDD8 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		9D4C650C23D59D3700C7DDD8 /* GraphEdge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphEdge.swift; sourceTree = "<group>"; };
+		9D4C650D23D59D3700C7DDD8 /* GraphPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphPath.swift; sourceTree = "<group>"; };
+		9D4C650E23D59D3700C7DDD8 /* GraphNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphNode.swift; sourceTree = "<group>"; };
+		9D4C651523D59D6A00C7DDD8 /* CoordinatesExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatesExtension.swift; sourceTree = "<group>"; };
+		9D4C651623D59D6A00C7DDD8 /* Connections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connections.swift; sourceTree = "<group>"; };
+		9D4C651723D59D6A00C7DDD8 /* ConnectionsExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionsExtension.swift; sourceTree = "<group>"; };
+		9D4C651C23D59D9900C7DDD8 /* MappableProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MappableProtocol.swift; sourceTree = "<group>"; };
+		9D4C651E23D59DBA00C7DDD8 /* DataLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		9D67E48F23D5A08C0099AA1A /* FormParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormParams.swift; sourceTree = "<group>"; };
+		9D67E49123D5A5600099AA1A /* MapViewControllerMKMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewControllerMKMap.swift; sourceTree = "<group>"; };
+		9D67E49323D5A5640099AA1A /* MapViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		9D67E49523D5A56E0099AA1A /* MapAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapAnnotation.swift; sourceTree = "<group>"; };
+		9D67E49723D5A5E90099AA1A /* MapParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapParams.swift; sourceTree = "<group>"; };
+		9D9D7A0023D570C50023FC6C /* TUI_Mobility_Hub_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TUI_Mobility_Hub_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D9D7A0323D570C50023FC6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D9D7A0C23D570C60023FC6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D9D7A0F23D570C60023FC6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D9D7A1123D570C60023FC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D9D7A1623D570C60023FC6C /* TUI_Mobility_Hub_TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TUI_Mobility_Hub_TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D9D7A1A23D570C60023FC6C /* TUI_Mobility_Hub_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUI_Mobility_Hub_TestTests.swift; sourceTree = "<group>"; };
+		9D9D7A1C23D570C60023FC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D9D7A2123D570C60023FC6C /* TUI_Mobility_Hub_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TUI_Mobility_Hub_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D9D7A2523D570C60023FC6C /* TUI_Mobility_Hub_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUI_Mobility_Hub_TestUITests.swift; sourceTree = "<group>"; };
+		9D9D7A2723D570C60023FC6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D9D7A3C23D573450023FC6C /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		9D9D7A3E23D5739E0023FC6C /* FormViewController+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FormViewController+Layout.swift"; sourceTree = "<group>"; };
+		9D9D7A4123D5744B0023FC6C /* ImageViewsExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewsExt.swift; sourceTree = "<group>"; };
+		9D9D7A4223D5744B0023FC6C /* ViewsExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewsExt.swift; sourceTree = "<group>"; };
+		9D9D7A4323D5744B0023FC6C /* UIView+AnchorsExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AnchorsExt.swift"; sourceTree = "<group>"; };
+		9D9D7A4723D578670023FC6C /* ButtonsExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsExt.swift; sourceTree = "<group>"; };
+		9D9D7A4923D588D40023FC6C /* FormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewModel.swift; sourceTree = "<group>"; };
+		9D9D7A4D23D58CF40023FC6C /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9D9D7A5023D590530023FC6C /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		9D9D7A5223D590D30023FC6C /* ViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExt.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D9D79FD23D570C50023FC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D9D7A1323D570C60023FC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D9D7A1E23D570C60023FC6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D4C64FE23D5942700C7DDD8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9D4C651E23D59DBA00C7DDD8 /* DataLoader.swift */,
+				9D4C650223D594D900C7DDD8 /* Reachability.swift */,
+				9D4C64FF23D5943000C7DDD8 /* Api */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		9D4C64FF23D5943000C7DDD8 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				9D4C650023D5946900C7DDD8 /* Endpoint.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		9D4C650823D59D3700C7DDD8 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				9D4C650923D59D3700C7DDD8 /* GraphProtocol.swift */,
+				9D4C650A23D59D3700C7DDD8 /* Graph.swift */,
+				9D4C650B23D59D3700C7DDD8 /* Model */,
+				9D4C650E23D59D3700C7DDD8 /* GraphNode.swift */,
+			);
+			name = Graph;
+			path = "../../../../Downloads/trip-planner-master/Trip Planner/Trip Planner/Helpers/Graph";
+			sourceTree = "<group>";
+		};
+		9D4C650B23D59D3700C7DDD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D4C650C23D59D3700C7DDD8 /* GraphEdge.swift */,
+				9D4C650D23D59D3700C7DDD8 /* GraphPath.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9D4C651423D59D6A00C7DDD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D4C651523D59D6A00C7DDD8 /* CoordinatesExtension.swift */,
+				9D4C651623D59D6A00C7DDD8 /* Connections.swift */,
+				9D4C651723D59D6A00C7DDD8 /* ConnectionsExtension.swift */,
+			);
+			name = Model;
+			path = "../../../../Downloads/trip-planner-master/Trip Planner/Trip Planner/Features/Model";
+			sourceTree = "<group>";
+		};
+		9D4C651B23D59D9900C7DDD8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9D4C651C23D59D9900C7DDD8 /* MappableProtocol.swift */,
+			);
+			name = Protocols;
+			path = "../../../../../Downloads/trip-planner-master/Trip Planner/Trip Planner/Features/Map/Protocols";
+			sourceTree = "<group>";
+		};
+		9D9D79F723D570C50023FC6C = {
+			isa = PBXGroup;
+			children = (
+				9D9D7A0223D570C50023FC6C /* TUI_Mobility_Hub_Test */,
+				9D9D7A1923D570C60023FC6C /* TUI_Mobility_Hub_TestTests */,
+				9D9D7A2423D570C60023FC6C /* TUI_Mobility_Hub_TestUITests */,
+				9D9D7A0123D570C50023FC6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D9D7A0123D570C50023FC6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D9D7A0023D570C50023FC6C /* TUI_Mobility_Hub_Test.app */,
+				9D9D7A1623D570C60023FC6C /* TUI_Mobility_Hub_TestTests.xctest */,
+				9D9D7A2123D570C60023FC6C /* TUI_Mobility_Hub_TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D9D7A0223D570C50023FC6C /* TUI_Mobility_Hub_Test */ = {
+			isa = PBXGroup;
+			children = (
+				9D9D7A3323D571DD0023FC6C /* App */,
+				9D9D7A3423D571E40023FC6C /* Presentation */,
+				9D9D7A3623D571EE0023FC6C /* Domain */,
+				9D9D7A3523D571E90023FC6C /* Data */,
+				9D9D7A3723D571FA0023FC6C /* Resources */,
+			);
+			path = TUI_Mobility_Hub_Test;
+			sourceTree = "<group>";
+		};
+		9D9D7A1923D570C60023FC6C /* TUI_Mobility_Hub_TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D9D7A1A23D570C60023FC6C /* TUI_Mobility_Hub_TestTests.swift */,
+				9D9D7A1C23D570C60023FC6C /* Info.plist */,
+			);
+			path = TUI_Mobility_Hub_TestTests;
+			sourceTree = "<group>";
+		};
+		9D9D7A2423D570C60023FC6C /* TUI_Mobility_Hub_TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D9D7A2523D570C60023FC6C /* TUI_Mobility_Hub_TestUITests.swift */,
+				9D9D7A2723D570C60023FC6C /* Info.plist */,
+			);
+			path = TUI_Mobility_Hub_TestUITests;
+			sourceTree = "<group>";
+		};
+		9D9D7A3323D571DD0023FC6C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9D9D7A0323D570C50023FC6C /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9D9D7A3423D571E40023FC6C /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				9D9D7A4023D5743F0023FC6C /* Extensions */,
+				9D9D7A3823D572E60023FC6C /* Form */,
+				9D9D7A3923D572EA0023FC6C /* Map */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		9D9D7A3523D571E90023FC6C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9D4C651423D59D6A00C7DDD8 /* Model */,
+				9D4C650823D59D3700C7DDD8 /* Graph */,
+				9D4C64FE23D5942700C7DDD8 /* Networking */,
+				9D9D7A4F23D590250023FC6C /* Error */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9D9D7A3623D571EE0023FC6C /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		9D9D7A3723D571FA0023FC6C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D9D7A1123D570C60023FC6C /* Info.plist */,
+				9D9D7A0E23D570C60023FC6C /* LaunchScreen.storyboard */,
+				9D9D7A0C23D570C60023FC6C /* Assets.xcassets */,
+				9D4C64FC23D592AA00C7DDD8 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9D9D7A3823D572E60023FC6C /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				9D67E48F23D5A08C0099AA1A /* FormParams.swift */,
+				9D9D7A3C23D573450023FC6C /* FormViewController.swift */,
+				9D9D7A3E23D5739E0023FC6C /* FormViewController+Layout.swift */,
+				9D9D7A4923D588D40023FC6C /* FormViewModel.swift */,
+			);
+			path = Form;
+			sourceTree = "<group>";
+		};
+		9D9D7A3923D572EA0023FC6C /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				9D67E49723D5A5E90099AA1A /* MapParams.swift */,
+				9D4C651B23D59D9900C7DDD8 /* Protocols */,
+				9D9D7A4D23D58CF40023FC6C /* MapViewController.swift */,
+				9D67E49123D5A5600099AA1A /* MapViewControllerMKMap.swift */,
+				9D67E49523D5A56E0099AA1A /* MapAnnotation.swift */,
+				9D67E49323D5A5640099AA1A /* MapViewModel.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		9D9D7A4023D5743F0023FC6C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9D4C650423D59BF900C7DDD8 /* SetExtension.swift */,
+				9D4C64FA23D5927600C7DDD8 /* StringExtension.swift */,
+				9D9D7A4123D5744B0023FC6C /* ImageViewsExt.swift */,
+				9D9D7A4323D5744B0023FC6C /* UIView+AnchorsExt.swift */,
+				9D9D7A4223D5744B0023FC6C /* ViewsExt.swift */,
+				9D9D7A4723D578670023FC6C /* ButtonsExt.swift */,
+				9D9D7A5223D590D30023FC6C /* ViewControllerExt.swift */,
+				9D4C650623D59C4600C7DDD8 /* TextFieldExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9D9D7A4F23D590250023FC6C /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				9D9D7A5023D590530023FC6C /* Errors.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D9D79FF23D570C50023FC6C /* TUI_Mobility_Hub_Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D9D7A2A23D570C60023FC6C /* Build configuration list for PBXNativeTarget "TUI_Mobility_Hub_Test" */;
+			buildPhases = (
+				9D9D79FC23D570C50023FC6C /* Sources */,
+				9D9D79FD23D570C50023FC6C /* Frameworks */,
+				9D9D79FE23D570C50023FC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TUI_Mobility_Hub_Test;
+			productName = TUI_Mobility_Hub_Test;
+			productReference = 9D9D7A0023D570C50023FC6C /* TUI_Mobility_Hub_Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D9D7A1523D570C60023FC6C /* TUI_Mobility_Hub_TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D9D7A2D23D570C60023FC6C /* Build configuration list for PBXNativeTarget "TUI_Mobility_Hub_TestTests" */;
+			buildPhases = (
+				9D9D7A1223D570C60023FC6C /* Sources */,
+				9D9D7A1323D570C60023FC6C /* Frameworks */,
+				9D9D7A1423D570C60023FC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D9D7A1823D570C60023FC6C /* PBXTargetDependency */,
+			);
+			name = TUI_Mobility_Hub_TestTests;
+			productName = TUI_Mobility_Hub_TestTests;
+			productReference = 9D9D7A1623D570C60023FC6C /* TUI_Mobility_Hub_TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D9D7A2023D570C60023FC6C /* TUI_Mobility_Hub_TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D9D7A3023D570C60023FC6C /* Build configuration list for PBXNativeTarget "TUI_Mobility_Hub_TestUITests" */;
+			buildPhases = (
+				9D9D7A1D23D570C60023FC6C /* Sources */,
+				9D9D7A1E23D570C60023FC6C /* Frameworks */,
+				9D9D7A1F23D570C60023FC6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D9D7A2323D570C60023FC6C /* PBXTargetDependency */,
+			);
+			name = TUI_Mobility_Hub_TestUITests;
+			productName = TUI_Mobility_Hub_TestUITests;
+			productReference = 9D9D7A2123D570C60023FC6C /* TUI_Mobility_Hub_TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D9D79F823D570C50023FC6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Jordi Milla Catalan";
+				TargetAttributes = {
+					9D9D79FF23D570C50023FC6C = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					9D9D7A1523D570C60023FC6C = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 9D9D79FF23D570C50023FC6C;
+					};
+					9D9D7A2023D570C60023FC6C = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 9D9D79FF23D570C50023FC6C;
+					};
+				};
+			};
+			buildConfigurationList = 9D9D79FB23D570C50023FC6C /* Build configuration list for PBXProject "TUI_Mobility_Hub_Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D9D79F723D570C50023FC6C;
+			productRefGroup = 9D9D7A0123D570C50023FC6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D9D79FF23D570C50023FC6C /* TUI_Mobility_Hub_Test */,
+				9D9D7A1523D570C60023FC6C /* TUI_Mobility_Hub_TestTests */,
+				9D9D7A2023D570C60023FC6C /* TUI_Mobility_Hub_TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D9D79FE23D570C50023FC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9D7A1023D570C60023FC6C /* LaunchScreen.storyboard in Resources */,
+				9D4C64FD23D592AA00C7DDD8 /* Localizable.strings in Resources */,
+				9D9D7A0D23D570C60023FC6C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D9D7A1423D570C60023FC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D9D7A1F23D570C60023FC6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D9D79FC23D570C50023FC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D67E49623D5A56E0099AA1A /* MapAnnotation.swift in Sources */,
+				9D4C650123D5946900C7DDD8 /* Endpoint.swift in Sources */,
+				9D4C651123D59D3700C7DDD8 /* GraphEdge.swift in Sources */,
+				9D4C651323D59D3700C7DDD8 /* GraphNode.swift in Sources */,
+				9D9D7A4E23D58CF40023FC6C /* MapViewController.swift in Sources */,
+				9D4C650723D59C4600C7DDD8 /* TextFieldExt.swift in Sources */,
+				9D9D7A4423D5744B0023FC6C /* ImageViewsExt.swift in Sources */,
+				9D9D7A3D23D573450023FC6C /* FormViewController.swift in Sources */,
+				9D4C651923D59D6A00C7DDD8 /* Connections.swift in Sources */,
+				9D4C651F23D59DBA00C7DDD8 /* DataLoader.swift in Sources */,
+				9D9D7A4523D5744B0023FC6C /* ViewsExt.swift in Sources */,
+				9D67E49023D5A08C0099AA1A /* FormParams.swift in Sources */,
+				9D67E49823D5A5E90099AA1A /* MapParams.swift in Sources */,
+				9D67E49423D5A5640099AA1A /* MapViewModel.swift in Sources */,
+				9D4C650F23D59D3700C7DDD8 /* GraphProtocol.swift in Sources */,
+				9D67E49223D5A5600099AA1A /* MapViewControllerMKMap.swift in Sources */,
+				9D9D7A4A23D588D40023FC6C /* FormViewModel.swift in Sources */,
+				9D4C650523D59BF900C7DDD8 /* SetExtension.swift in Sources */,
+				9D9D7A0423D570C50023FC6C /* AppDelegate.swift in Sources */,
+				9D9D7A5323D590D30023FC6C /* ViewControllerExt.swift in Sources */,
+				9D4C650323D594D900C7DDD8 /* Reachability.swift in Sources */,
+				9D9D7A3F23D5739E0023FC6C /* FormViewController+Layout.swift in Sources */,
+				9D4C651223D59D3700C7DDD8 /* GraphPath.swift in Sources */,
+				9D9D7A5123D590530023FC6C /* Errors.swift in Sources */,
+				9D4C651D23D59D9900C7DDD8 /* MappableProtocol.swift in Sources */,
+				9D4C651823D59D6A00C7DDD8 /* CoordinatesExtension.swift in Sources */,
+				9D9D7A4623D5744B0023FC6C /* UIView+AnchorsExt.swift in Sources */,
+				9D4C64FB23D5927600C7DDD8 /* StringExtension.swift in Sources */,
+				9D4C651023D59D3700C7DDD8 /* Graph.swift in Sources */,
+				9D4C651A23D59D6A00C7DDD8 /* ConnectionsExtension.swift in Sources */,
+				9D9D7A4823D578670023FC6C /* ButtonsExt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D9D7A1223D570C60023FC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9D7A1B23D570C60023FC6C /* TUI_Mobility_Hub_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D9D7A1D23D570C60023FC6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D9D7A2623D570C60023FC6C /* TUI_Mobility_Hub_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D9D7A1823D570C60023FC6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D9D79FF23D570C50023FC6C /* TUI_Mobility_Hub_Test */;
+			targetProxy = 9D9D7A1723D570C60023FC6C /* PBXContainerItemProxy */;
+		};
+		9D9D7A2323D570C60023FC6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D9D79FF23D570C50023FC6C /* TUI_Mobility_Hub_Test */;
+			targetProxy = 9D9D7A2223D570C60023FC6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D9D7A0E23D570C60023FC6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D9D7A0F23D570C60023FC6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D9D7A2823D570C60023FC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9D9D7A2923D570C60023FC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D9D7A2B23D570C60023FC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TUI_Mobility_Hub_Test/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jordi.milla.TUI-Mobility-Hub-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D9D7A2C23D570C60023FC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TUI_Mobility_Hub_Test/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jordi.milla.TUI-Mobility-Hub-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9D9D7A2E23D570C60023FC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TUI_Mobility_Hub_TestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jordi.milla.TUI-Mobility-Hub-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TUI_Mobility_Hub_Test.app/TUI_Mobility_Hub_Test";
+			};
+			name = Debug;
+		};
+		9D9D7A2F23D570C60023FC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TUI_Mobility_Hub_TestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jordi.milla.TUI-Mobility-Hub-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TUI_Mobility_Hub_Test.app/TUI_Mobility_Hub_Test";
+			};
+			name = Release;
+		};
+		9D9D7A3123D570C60023FC6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TUI_Mobility_Hub_TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jordi.milla.TUI-Mobility-Hub-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TUI_Mobility_Hub_Test;
+			};
+			name = Debug;
+		};
+		9D9D7A3223D570C60023FC6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TUI_Mobility_Hub_TestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jordi.milla.TUI-Mobility-Hub-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TUI_Mobility_Hub_Test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D9D79FB23D570C50023FC6C /* Build configuration list for PBXProject "TUI_Mobility_Hub_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D9D7A2823D570C60023FC6C /* Debug */,
+				9D9D7A2923D570C60023FC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D9D7A2A23D570C60023FC6C /* Build configuration list for PBXNativeTarget "TUI_Mobility_Hub_Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D9D7A2B23D570C60023FC6C /* Debug */,
+				9D9D7A2C23D570C60023FC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D9D7A2D23D570C60023FC6C /* Build configuration list for PBXNativeTarget "TUI_Mobility_Hub_TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D9D7A2E23D570C60023FC6C /* Debug */,
+				9D9D7A2F23D570C60023FC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D9D7A3023D570C60023FC6C /* Build configuration list for PBXNativeTarget "TUI_Mobility_Hub_TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D9D7A3123D570C60023FC6C /* Debug */,
+				9D9D7A3223D570C60023FC6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D9D79F823D570C50023FC6C /* Project object */;
+}
